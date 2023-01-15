@@ -80,11 +80,9 @@ const reducer = (
     }
 
     case REDUCER_ACTION_TYPE.SUBMIT: {
-      if (!action.payload) {
-        throw new Error('action.payload missind submit action');
-      }
       return { ...state, cart: [] };
     }
+
     default:
       throw new Error('Unidentified  reducer action type');
   }
