@@ -17,7 +17,7 @@ const REDUCER_ACTION_TYPE = {
   SUBMIT: 'SUBMIT',
 };
 
-export type reducerActionType = typeof REDUCER_ACTION_TYPE;
+export type ReducerActionType = typeof REDUCER_ACTION_TYPE;
 export type ReducerAction = {
   type: string;
   payload?: CartItemType;

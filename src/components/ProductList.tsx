@@ -17,7 +17,7 @@ const ProductList = () => {
           key={product.sku}
           product={product}
           dispatch={dispatch}
-          ReducerAction={REDUCER_ACTIONS}
+          REDUCER_ACTIONS={REDUCER_ACTIONS}
           inCart={inCart}
         />
       );
